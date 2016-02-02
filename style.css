@@ -1,18 +1,36 @@
-/*body {
-  background-image: url("files/galaxy.jpg");
-}*/
+body {
+  background: url("files/sky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("files/BebasNeue Regular.ttf") format("truetype");
+}
 
 .blue-please {
   margin-top: 10em;
-  background: skyblue
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  padding: 2em
 }
+
+.name {
+  font-family: "BebasNeue";
+  font-size: 100px;
+  margin-bottom: 0px
+}
+
 
 h1 .star-dot {
   font-size: 10px
 }
 
 .contact {
-  color: black
+  color: black;
 }
 
 .ga {
