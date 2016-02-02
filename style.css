@@ -1,0 +1,20 @@
+/*body {
+  background-image: url("files/galaxy.jpg");
+}*/
+
+.blue-please {
+  margin-top: 10em;
+  background: skyblue
+}
+
+h1 .star-dot {
+  font-size: 10px
+}
+
+.contact {
+  color: black
+}
+
+.ga {
+  vertical-align: -10%
+}
