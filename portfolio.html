@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Starr Chen</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="icon" type="icon/png" href="files/favicon.png">
+</head>
+<body>
+  <header class="container text-center">
+    <h1 class="name">Starr Z<i class="star-dot fa fa-star fa-spin"></i> Chen</h1>
+  </header>
+  <main class="container text-center">
+    <p class="text-muted"><small>Please excuse the dust! This site is under construction.</small></p>
+
+    <!-- Portfolio Images -->
+    <div class="row">
+      <div>
+        <img class="grid-image col-md-6" src="files/dc-bucket-list.png" width="400px" data-toggle="modal" data-target="#dc-bucket-list">
+      </div>
+
+      <div>
+        <img class="grid-image col-md-6" src="files/gobblr.png" width="400px" data-toggle="modal" data-target="#gobblr">
+      </div>
+
+      <div>
+        <img class="grid-image col-md-6" src="files/ga-hacker-helper.png" width="400px" data-toggle="modal" data-target="#ga-hacker-helper">
+      </div>
+
+      <div>
+        <img class="grid-image col-md-6" src="files/trivia.png" width="400px" data-toggle="modal" data-target="#trivia">
+      </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="dc-bucket-list" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">DC Bucket List</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="files/dc-bucket-list.png" class="img-responsive center-block modal-image" width="400px"></p>
+            <p>An interactive MEAN (MongoDB, Express.js, AngularJS, Node.js) stack app based on <a href="">Washingtonian's Great Washington Bucket List</a>.</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" href="http://dc-bucket-list.herokuapp.com" target="_blank" role="button">Launch</a>
+            <a class="btn btn-info" href="http://github.com/starrchen/dc-bucket-list" target="_blank" role="button">Repo</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="gobblr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Gobblr</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="files/gobblr.png" class="img-responsive center-block modal-image" width="400px"></p>
+            <p>A Thanksgiving-themed recipe manager built with Ruby on Rails. Key features include:
+            <ul>
+              <li>Viewing all recipes using a given ingredient</li>
+              <li>Viewing all ingredients needed for starred recipes</li>
+            </ul></p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" href="http://gobble-gobblr.herokuapp.com" target="_blank" role="button">Launch</a>
+            <a class="btn btn-info" href="http://github.com/starrchen/gobblr" target="_blank" role="button">Repo</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ga-hacker-helper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">GA Hacker Helper</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="files/ga-hacker-helper.png" class="img-responsive center-block modal-image" width="400px"></p>
+            <p>(<em>Group project</em>)</p>
+            <p>GA Hacker Helper is a collaborative effort built after learning Node.js and Express as a place where General Assembly students could share resources and other links in one central location. </p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" href="http://ga-hacker-helper.herokuapp.com" target="_blank" role="button">Launch</a>
+            <a class="btn btn-info" href="http://github.com/starrchen/ga-hacker-helper" target="_blank" role="button">Repo</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="trivia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">GA Hacker Helper</h4>
+          </div>
+          <div class="modal-body">
+            <p><img src="files/trivia.png" class="img-responsive center-block modal-image" width="400px"></p>
+            <p>After one week of JavaScript instruction, I built a fun trivia game testing Halloween and Disney knowledge.</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" href="http://starrchen.com/trivia" target="_blank" role="button">Launch</a>
+            <a class="btn btn-info" href="http://github.com/starrchen/trivia" target="_blank" role="button">Repo</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- JavaScript -->
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
