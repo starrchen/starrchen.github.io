@@ -11,7 +11,7 @@ body {
   src: url("files/BebasNeue Regular.ttf") format("truetype");
 }
 
-.blue-please {
+.landing-div {
   margin-top: 10em;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 25px;
@@ -24,6 +24,15 @@ body {
   margin-bottom: 0px
 }
 
+.portfolio-name {
+  font-family: "BebasNeue";
+  font-size: 100px;
+  margin-bottom: 0px;
+  color: silver
+}
+
+
+
 
 h1 .star-dot {
   font-size: 10px
@@ -35,4 +44,8 @@ h1 .star-dot {
 
 .ga {
   vertical-align: -10%
+}
+
+.grid-image {
+  padding: 1em
 }
