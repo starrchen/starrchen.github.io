@@ -1,5 +1,5 @@
 ## Welcome
-This is my personal landing page: [starrchen.com](starrchen.com).
+This is my personal landing page: [starrchen.com](http://starrchen.com).
 
 ![Screenshot of starrchen.com](files/screenshot.png)
 
